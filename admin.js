@@ -5,11 +5,11 @@ let addPost=async()=>{
 
 
     let send_this_data={
-        id:id,
+        id:+id,
         title:title,
         name:name,
     };
-    let res=await fetch(`https://my-json-server.typicode.com/Debjyoti07/MyNewServer/posts`,{
+    let res=await fetch(`http://localhost:3000/posts`,{
         method:"POST",
         
         body:JSON.stringify(send_this_data),
@@ -28,7 +28,7 @@ let addPost=async()=>{
 
 let deletePost=async()=>{
     let id=document.getElementById("delete_id").value;
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
+    let res=await fetch(`http://localhost:3000/posts/${id}`,{
         method:"DELETE",
 
         
@@ -50,7 +50,7 @@ let updatePost=async()=>{
         title,
     }
 
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
+    let res=await fetch(`http://localhost:3000/posts/${id}`,{
         method:"PATCH",
 
 
@@ -76,7 +76,7 @@ let replacePost=async()=>{
         title,
     }
 
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
+    let res=await fetch(`http://localhost:3000/posts/${id}`,{
         method:"PUT",
 
 
