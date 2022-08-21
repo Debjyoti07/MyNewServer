@@ -28,7 +28,7 @@ let addPost=async()=>{
 
 let deletePost=async()=>{
     let id=document.getElementById("delete_id").value;
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts//${id}`,{
+    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
         method:"DELETE",
 
         
@@ -50,7 +50,7 @@ let updatePost=async()=>{
         title,
     }
 
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts//${id}`,{
+    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
         method:"PATCH",
 
 
@@ -76,7 +76,7 @@ let replacePost=async()=>{
         title,
     }
 
-    let res=await fetch(`https://jsonplaceholder.typicode.com/posts//${id}`,{
+    let res=await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`,{
         method:"PUT",
 
 
