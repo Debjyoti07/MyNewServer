@@ -6,7 +6,7 @@ let addPost=async()=>{
 
     let send_this_data={
         id:+id,
-        title:title,
+        image:title,
         name:name,
     };
     let res=await fetch(`http://localhost:3000/posts`,{
