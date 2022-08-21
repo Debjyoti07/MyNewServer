@@ -1,29 +1,29 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "image": "https://assets.ajio.com/medias/sys_master/root/20220301/8wlk/621d2291aeb26921afbc5c51/-473Wx593H-469134715-blue-MODEL.jpg",
-        "name": "Campus"
-      },
-      {
-        "id":2,
-        "image": "https://m.media-amazon.com/images/I/71D9ImsvEtL._UY500_.jpg",
-        "name": "Red Running Shoes"
-      },
-      {
-        "id":3,
-        "image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg",
-        "name": "White Sneakers"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220301/8wlk/621d2291aeb26921afbc5c51/-473Wx593H-469134715-blue-MODEL.jpg",
+      "name": "Campus"
+    },
+    {
+      "id":2,
+      "image": "https://m.media-amazon.com/images/I/71D9ImsvEtL._UY500_.jpg",
+      "name": "Red Running Shoes"
+    },
+    {
+      "id":3,
+      "image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg",
+      "name": "White Sneakers"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}

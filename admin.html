@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Add Post</h1>
+
+    <input type="number" id="id" placeholder="Id">
+    <input type="text" id="title" placeholder="image">
+    <input type="text" id="author" placeholder="name">
+    <button onclick="addPost()">Submit</button>
+    </div>
+
+    <div>
+        <h1>DELETE POST</h1>
+
+        <input type="text" id="delete_id" placeholder="Enter id to delete">
+        <button onclick="deletePost()">Delete</button>
+    </div>
+
+
+    <div >
+    <h1>UPDATE POST</h1>
+    <input type="text" id="update_id" placeholder="Enter id to update data">
+    <input type="text" id="update_title" placeholder="Enter new Name">
+    <button onclick="updatePost()">Update Post</button>
+    </div>
+    
+    <div >
+        <h1>REPLACE POST</h1>
+        <input type="text" id="replace_id" placeholder="Enter id to update data">
+        <input type="text" id="replace_title" placeholder="Enter new Name">
+        <button onclick="replacePost()">Replace Post</button>
+        </div>
+</body>
+</html>
+<script src="admin.js"></script>
